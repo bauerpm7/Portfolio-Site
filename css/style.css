@@ -42,7 +42,7 @@ body {
 	text-align: right;
 }
 
-.full-width-image img {
+.full-width {
 	width: 100%;
 	height: auto;
 	margin-top: 30px;
