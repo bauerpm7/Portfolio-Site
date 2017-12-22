@@ -13,6 +13,8 @@ body {
 }
 
 .container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
 }
@@ -23,13 +25,13 @@ body {
 	text-transform: uppercase;
 }
 
-.site-header h3{
+.title {
 	margin: 0px;
 	font-size: 28px;
 	font-weight: lighter;
 }
 
-.site-header h1 {
+.name {
 	margin: 0px;
 	font-size: 50px;
 	font-weight: lighter;
@@ -57,6 +59,8 @@ body {
 }
 
 .portfolio .container {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	width: 100%;
 }
@@ -82,7 +86,7 @@ body {
 	margin-bottom: 30px;
 }
 
-.portfolio img {
+.portfolio-image{
 	width: 100%;
 	height: auto;
 
@@ -103,28 +107,29 @@ a {
 		height: 75px;
 	}
 
-	.site-header h1 {
+	.name {
 		font-size: 28px;
 	}
 
-	.site-header h3 {
+	.title {
 		font-size: 16px;
 	}
 }
 
 @media screen and (min-width: 501px) and (max-width: 700px){
-	.site-header h1 {
+	.name {
 		font-size: 32px;
 	}
 
-	.site-header h3 {
+	.title {
 		font-size: 18px;
 	}
 }
 
 @media screen and (max-width: 900px){
 	.portfolio .container {
-		flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		    flex-wrap: wrap;
 		max-width: 80%;
 		margin: auto;
 	}
@@ -142,7 +147,6 @@ a {
 	}
 
 }
-
 
 
 
