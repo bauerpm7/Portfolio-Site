@@ -1,0 +1,149 @@
+* {
+	font-family: Roboto;
+	color: #2d3c49;
+}
+
+body {
+	width: 70%;
+	margin: auto;
+}
+
+.header {
+	border-bottom: 3px solid #2d3c49;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+}
+
+.site-header {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.site-header h3{
+	margin: 0px;
+	font-size: 28px;
+	font-weight: lighter;
+}
+
+.site-header h1 {
+	margin: 0px;
+	font-size: 50px;
+	font-weight: lighter;
+}
+
+.header-text {
+	width: 100%;
+	text-align: right;
+}
+
+.full-width-image img {
+	width: 100%;
+	height: auto;
+	margin-top: 30px;
+}
+
+.portfolio {
+	width: 100%;
+}
+
+.feature {
+	font-weight: lighter;
+	font-size: 40px;
+	color: #7d97ad;
+}
+
+.portfolio .container {
+	display: flex;
+	width: 100%;
+}
+
+.content-1 {
+	width: 100%;
+	text-align: center;
+	padding: 0 10px 0 0;
+	margin-bottom: 30px;
+}
+
+.content-2 {
+	width:100%;
+	text-align:center;
+	padding: 0 5px 0 5px;
+	margin-bottom:30px;
+}
+
+.content-3 {
+	width: 100%;
+	text-align: center;
+	padding: 0 0 0 10px;
+	margin-bottom: 30px;
+}
+
+.portfolio img {
+	width: 100%;
+	height: auto;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+@media screen and (max-width: 500px){
+	body {
+		width:90%;
+		margin:auto;
+	}
+
+	.logo {
+		width: 75px;
+		height: 75px;
+	}
+
+	.site-header h1 {
+		font-size: 28px;
+	}
+
+	.site-header h3 {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px){
+	.site-header h1 {
+		font-size: 32px;
+	}
+
+	.site-header h3 {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.portfolio .container {
+		flex-wrap: wrap;
+		max-width: 80%;
+		margin: auto;
+	}
+
+	.portfolio {
+		margin: auto;
+	}
+
+	.content-1, .content-2, .content-3 {
+		padding: 0px;
+	}
+	
+	.feature {
+		text-align: center;
+	}
+
+}
+
+
+
+
+
