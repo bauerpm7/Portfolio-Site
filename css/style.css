@@ -26,13 +26,13 @@ body {
 }
 
 .title {
-	margin: 0px;
+	margin: 0;
 	font-size: 28px;
 	font-weight: lighter;
 }
 
 .name {
-	margin: 0px;
+	margin: 0;
 	font-size: 50px;
 	font-weight: lighter;
 }
@@ -68,38 +68,60 @@ body {
 .content-1 {
 	width: 100%;
 	text-align: center;
-	padding: 0 10px 0 0;
+	padding: 0 10px;
 	margin-bottom: 30px;
 }
 
 .content-2 {
-	width:100%;
-	text-align:center;
+	width: 100%;
+	text-align: center;
 	padding: 0 5px 0 5px;
-	margin-bottom:30px;
+	margin-bottom: 30px;
 }
 
 .content-3 {
 	width: 100%;
 	text-align: center;
-	padding: 0 0 0 10px;
+	padding-left: 10px;
 	margin-bottom: 30px;
 }
 
-.portfolio-image{
+.portfolio-image {
 	width: 100%;
 	height: auto;
-
 }
 
 a {
 	text-decoration: none;
 }
 
+.footer-div {
+	width: 100%;
+	padding: 20px 0 20px;
+}
+
+.social-media {
+	justify-content: flex-end;
+}
+
+#copyright {
+	width: 100%;
+}
+
+.logos{
+	width: 50px;
+	height: 50px;
+	margin: 0 15px 0 15px;
+}
+
+.footer {
+	border-top: 3px solid #2d3c49;
+}
+
 @media screen and (max-width: 500px){
 	body {
-		width:90%;
-		margin:auto;
+		width: 90%;
+		margin: auto;
 	}
 
 	.logo {
@@ -113,6 +135,15 @@ a {
 
 	.title {
 		font-size: 16px;
+	}
+
+	#copyright{
+		font-size: 12px;
+	}
+
+	.logos{
+		height: 29px;
+		width: 29px;
 	}
 }
 
@@ -138,14 +169,15 @@ a {
 		margin: auto;
 	}
 
-	.content-1, .content-2, .content-3 {
-		padding: 0px;
+	.content-1, 
+	.content-2, 
+	.content-3 {
+		padding: 0;
 	}
 	
 	.feature {
 		text-align: center;
 	}
-
 }
 
 
